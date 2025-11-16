@@ -67,26 +67,6 @@ nav img {
 
 /*================== CLASS DUMP =====================*/
 /*adjust as needed, i may love my readily applied code but i know a class is smart when i see it, use when needed!*/
-/* .showcase {
-    position: relative;
-    margin-top: 20px;
-    border: 2px greenyellow solid;
-    overflow: hidden;
-    padding: 20px;
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.showcase-img {
-    position: absolute;
-    padding: 5px;
-    right: 20px;
-    top: 20px;
-    max-width: 50%;
-    height: auto;
-} */
 .showcase {
     align-items: flex-start;
     display: flex;
