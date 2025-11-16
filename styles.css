@@ -19,6 +19,20 @@ p {
     padding: 0px;
 }
 
+/*=============== HEADER IMAGE ================= */
+/* adjust as needed, rn its just a thing to test */
+header {
+    width: auto;
+    height: 350px;
+    overflow: hidden;
+    margin: -8px;
+}
+header img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
 /* ============== NAV BAR ================== */
 /* important as hell, this shit makes the navbar look pretty,*/
 nav {
@@ -53,16 +67,17 @@ nav img {
 
 /*================== CLASS DUMP =====================*/
 /*adjust as needed, i may love my readily applied code but i know a class is smart when i see it, use when needed!*/
-.showcase {
+/* .showcase {
     position: relative;
     margin-top: 20px;
     border: 2px greenyellow solid;
     overflow: hidden;
     padding: 20px;
     width: 100%;
-    height: auto;
     max-width: 100%;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .showcase-img {
     position: absolute;
@@ -71,4 +86,24 @@ nav img {
     top: 20px;
     max-width: 50%;
     height: auto;
+} */
+.showcase {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    margin: 20px auto 8px auto;
+    border: 2px greenyellow solid;
+    padding: 20px;
+    width: 85%;
+    max-width: 100%;
+}
+.showcase-content {
+    flex: 1;
+    margin: -8px;
+    padding: 0;
+}
+.showcase-img {
+    max-width: 50%;
+    height: auto;
+    padding: 5px;
 }
