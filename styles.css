@@ -118,13 +118,7 @@ nav img {
     width: 85%;
     max-width: 100%;
     color: aqua;
-    background: repeating-linear-gradient(
-        45deg,
-        #15ff00,
-        #15ff00 10px,
-        #0a0aff 10px,
-        #0a0aff 20px
-    );
+    background-color: rgb(0, 255, 0);
 }
 .graphic-design-is-my-passion-content {
     flex: 1;
@@ -132,14 +126,12 @@ nav img {
     padding: 0;
 }
 .graphic-design-is-my-passion-content p {
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: Comic Sans;
     font-size: 20;
-    color: black;
 }
 .graphic-design-is-my-passion-content h1, h2, h3, h4, h5, h6 {
     font-family: Papyrus;
     font-size: 40;
-    color: red;
 }
 .graphic-design-is-my-passion.img {
     max-width: 50%;
