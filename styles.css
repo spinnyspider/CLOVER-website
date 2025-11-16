@@ -1,0 +1,74 @@
+/*=========== GENERAL ==============*/
+/*general stuff, just shit youd be using on the regular*/
+* {
+    box-sizing: border-box;
+}
+div {
+    padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins, Helvetica, sans-serif;
+    color: greenyellow;
+    border-bottom: 3px, green;
+    margin: 10px;
+    padding: 0px;
+}
+p {
+    font-family: Lexend Deca, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 0px;
+}
+
+/* ============== NAV BAR ================== */
+/* important as hell, this shit makes the navbar look pretty,*/
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px;
+    margin: -8px;
+    background: rgb(120, 202, 58);
+    width: auto;
+}
+nav a {
+    position: relative;
+    left: 180px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    padding: 20px;
+    text-decoration-line: none;
+    background: rgb(120, 202, 58);
+}
+nav a:hover { 
+    background: rgb(146, 222, 88);
+}
+nav img {
+    /*adjust as needed for the ACTUAL logo but i am sure HTML is not stupid and it can load svg*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+    padding: 10px;
+}
+
+/*================== CLASS DUMP =====================*/
+/*adjust as needed, i may love my readily applied code but i know a class is smart when i see it, use when needed!*/
+.showcase {
+    position: relative;
+    margin-top: 20px;
+    border: 2px greenyellow solid;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.showcase-img {
+    position: absolute;
+    padding: 5px;
+    right: 20px;
+    top: 20px;
+    max-width: 50%;
+    height: auto;
+}
