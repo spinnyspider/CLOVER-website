@@ -18,7 +18,7 @@ This is a website for our company! This project is actively maintained between D
 ## Getting Started
 Best viewed in Github Pages, as such the appropriate link is:
 - **If viewed during active development:** [INSERT APPROPRIATE LINK HERE]
-- **If viewed after active development:** https://github.com/spinnyspider/CLOVER-website.git
+- **If viewed after active development:** https://spinnyspider.github.io/CLOVER-website/
 
 ## Contributing
 Currently this is a school project, but feel free to look around! 
