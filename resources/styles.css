@@ -1,3 +1,7 @@
+/* apparently theres a very common model of css values, im just going to dump it here for reference:
+- layout
+- size
+- decoration
 /*=========== GENERAL ==============*/
 /*general stuff, just shit youd be using on the regular*/
 * {
@@ -99,8 +103,13 @@ nav img {
 @media screen and (max-width: 728px) {
     /* showcase to get rid of the gaps on the side */
     .showcase {
-    width: 100%;
-    max-width: 100%;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+    .showcase-img {
+        max-width: 90%;
+        padding: 0;
     }
     /*navbar fix*/
     nav {
