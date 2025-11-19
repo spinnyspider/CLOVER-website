@@ -10,13 +10,30 @@
 div {
     padding: 0.625rem;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1 { /* acts as BIG title */
+    display: block;
+    width: auto;
+    padding: 0.5rem;
+    margin: 0.67em -0.5rem;
+    font-family: Poppins, Helvetica, sans-serif;
+    color: white;
+    background: purple;
+}
+h2, h3, h4, h5, h6 { /* acts as regular headers except h6 is chopped off (sorry h6) */
     margin: 0.625rem;
     margin-left: 0.25rem;
     padding: 0;
     font-family: Poppins, Helvetica, sans-serif;
     color: greenyellow;
 }
+/* sizing changes */
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.17em;}
+h5 {font-size: 1.33em;}
+h6 {font-size: 0.83em;}
+
 p {
     margin: 0.312rem;
     padding: 0;
