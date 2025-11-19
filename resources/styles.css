@@ -10,7 +10,7 @@
 div {
     padding: 0.625rem;
 }
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     margin: 0.625rem;
     margin-left: 0.25rem;
     padding: 0;
@@ -40,6 +40,7 @@ header img {
 }
 /* ============== NAV BAR ================== */
 /* important as hell, this shit makes the navbar look pretty,*/
+/* lowk wanna try a thing tho hold on */
 nav {
     position: sticky;
     top: 0;
@@ -68,7 +69,8 @@ nav img {
     top: 0;
     z-index: 1001;
     padding: 0.625rem;
-}
+} 
+*/
 .nav-toggle {
     display: none;
     background: none;
@@ -79,24 +81,32 @@ nav img {
 /*================== CLASS DUMP =====================*/
 /*adjust as needed, i may love my readily applied code but i know a class is smart when i see it, use when needed!*/
 .showcase {
-    align-items: flex-start;
-    display: flex;
-    gap: 1.25rem;
+    overflow: hidden;
     padding: 1.25rem;
     width: 85%;
     max-width: 100%;
     margin: 1.25rem auto 0.5rem auto;
     border: 2px greenyellow solid;
 }
-.showcase-content {
-    flex: 1;
-    margin: -0.5rem;
-    padding: 0;
-}
+/*respect the order, image first, content second (float just works like that)*/
 .showcase-img {
+    float: right;
     max-width: 50%;
     height: auto;
     padding: 0.312rem;
+    margin: 0 0 0.312rem 0.312rem;
+}
+.showcase-content {
+    margin: -0.5rem;
+    padding: 0;
+}
+.showcase h1 {
+    margin: 0.625rem;
+    margin-left: 0.25rem;
+    padding: 0;
+    font-family: Poppins, Helvetica, sans-serif;
+    color: greenyellow;
+    border-bottom: 3px, green;
 }
 
 /* ====================== MOBILE SPECIFIC CONTENT ================================ */
