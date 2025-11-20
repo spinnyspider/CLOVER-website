@@ -2,6 +2,8 @@
 - layout
 - size
 - decoration
+*/
+/*TODO: fetch design ideas from school website but DO NOT copy and paste it exactly*/
 /*=========== GENERAL ==============*/
 /*general stuff, just shit youd be using on the regular*/
 * {
@@ -12,6 +14,7 @@ div {
 }
 
 h1 { /* acts as BIG title */
+    /* TODO: figure out FINAL design for this */
     display: block;
     width: auto;
     padding: 0.5rem;
@@ -49,6 +52,7 @@ header {
     margin: -0.5rem;
 }
 header img {
+    /* TODO: fetch image to add */
     display: block;
     object-fit: cover;
     width: 100%;
