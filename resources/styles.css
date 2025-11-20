@@ -101,11 +101,19 @@ nav {
 footer {
     display: flex;
     justify-content: space-around;
+    width: auto;
+    padding: 0.75rem;
+    margin: -0.5rem;
+    margin-top: 2rem;
     background: purple;
 }
 footer div {
     color: white;
     font-size: 0.9rem;
+}
+footer h4 {
+    font-size: 1.33em;
+    color: white;
 }
 
 /*================== CLASS DUMP =====================*/
