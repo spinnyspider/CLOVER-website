@@ -12,6 +12,9 @@
 div {
     padding: 0.625rem;
 }
+body {
+    background: rgb(201, 89, 201);
+}
 
 h1 { /* acts as BIG title */
     /* TODO: figure out FINAL design for this */
@@ -58,6 +61,7 @@ header img {
     width: 100%;
     height: 100%;
 }
+
 /* ============== NAV BAR ================== */
 /* important as hell, this shit makes the navbar look pretty,*/
 nav {
@@ -78,15 +82,30 @@ nav {
     color: white;
     text-decoration: none;
     background: rgb(120, 202, 58);
+    border-radius: 0.5rem;
 }
 .nav-links a:hover {
     background: rgb(146, 222, 88);
+    border-radius: 0.5rem;
 }
 .nav-toggle {
     display: none;
     background: none;
     border: none;
     cursor: pointer;
+}
+
+/*================== FOOTER =====================*/
+/* contacts and shit go here */
+/* TODO: footer is absolutely not finished so please finish it */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: purple;
+}
+footer div {
+    color: white;
+    font-size: 0.9rem;
 }
 
 /*================== CLASS DUMP =====================*/
@@ -97,7 +116,9 @@ nav {
     width: 85%;
     max-width: 100%;
     margin: 1.25rem auto 0.5rem auto;
+    background: white;
     border: 2px greenyellow solid;
+    border-radius: 0.5rem;
 }
 /*respect the order, image first, content second (float just works like that)*/
 .showcase img {
@@ -148,9 +169,11 @@ nav {
         padding: 0 0.5rem 0.25rem 0.5rem;
         background: rgb(120, 202, 58);
         color: white;
+        border-radius: 0.5rem;
     }
     .nav-toggle:active {
         background:rgb(146, 222, 88);
+        border-radius: 0.5rem;
     }
     /*button functionality i believe???*/
     .nav-links.active {
