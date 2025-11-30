@@ -51,7 +51,7 @@ p {
 header {
     width: auto;
     overflow: hidden;
-    height: 21.875rem;
+    height: 28rem;
     margin: -0.5rem;
 }
 header img {
@@ -157,7 +157,6 @@ footer h4 {
     margin-right: auto;
     width: 100%;
 }
-.tall {grid-row: 1 / span 2;} /*makes a grid element take up 2 rows*/
 /* ====================== MOBILE SPECIFIC CONTENT ================================ */
 @media screen and (max-width: 728px) {
     /* showcase to get rid of the gaps on the side */
