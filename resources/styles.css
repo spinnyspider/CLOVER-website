@@ -46,8 +46,8 @@ p {
 }
 img {filter: blur(0.4px);} /*skedaddle skidoodle pixels be gone*/
 
-/*=============== HEADER IMAGE ================= */
-/* adjust as needed, rn its just a thing to test */
+/*=============== HEADER ================= */
+/*this is basically a hero image*/
 header {
     width: auto;
     overflow: hidden;
@@ -55,14 +55,12 @@ header {
     margin: -0.5rem;
 }
 header img {
-    /* TODO: fetch image to add */
     display: block;
     object-fit: cover;
     object-position: center;
     width: 100%;
     height: 100%;
 }
-
 /* ============== NAV BAR ================== */
 /* important as hell, this shit makes the navbar look pretty,*/
 nav {
@@ -162,68 +160,6 @@ footer h4 {
     width: 100%;
 }
 
-/* ================== CAROUSEL (COURTESY OF DEEPSEEK) ======================= */
-.carousel {
-    position: relative;
-    width: 100%;
-    height: 400px; /* Adjust! */
-    overflow: hidden;
-}
-.slides-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-.slide.active {
-    opacity: 1;
-}
-.slides-container img {
-    position: static;
-    float: none;
-    max-width: 50%;
-    height: auto;
-    padding: 0;
-    margin: 0.5rem;
-}
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(145, 255, 66, 0.5);
-    color: white;
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    z-index: 10;
-}
-.prev { left: 10px; }
-.next { right: 10px; }
-.dots {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px;
-}
-.dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(255,255,255,0.5);
-    cursor: pointer;
-}
-.dot.active {
-    background: white;
-}
 /* ====================== MOBILE SPECIFIC CONTENT ================================ */
 @media screen and (max-width: 728px) {
     /* showcase to get rid of the gaps on the side */
