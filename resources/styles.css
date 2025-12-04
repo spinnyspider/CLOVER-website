@@ -117,8 +117,7 @@ footer h4 {
     color: white;
 }
 
-/*================== CLASS DUMP =====================*/
-/*adjust as needed, i may love my readily applied code but i know a class is smart when i see it, use when needed!*/
+/*================== CONTENT ITSELF (i put it in a .showcase tag and now i know no better way to describe it) =====================*/
 .showcase {
     overflow: hidden;
     padding: 1.25rem;
@@ -130,7 +129,7 @@ footer h4 {
     border-radius: 0.5rem;
 }
 /*respect the order, image first, content second (float just works like that)*/
-.showcase img {
+img.float {
     float: right;
     max-width: 50%;
     height: auto;
@@ -154,7 +153,6 @@ footer h4 {
     border-radius: 0.5rem;
 }
 .showcase-grid-content img {
-    float: none;
     display: block;
     object-fit: cover;
     margin-left: auto;
@@ -163,7 +161,18 @@ footer h4 {
     width: 100%;
 }
 
-/* ====================== MOBILE SPECIFIC CONTENT ================================ */
+/* ========================== PRODUCTS GRID =================================== */
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    padding: 0.625rem;
+}
+.product-card {
+    border: 3px solid black;
+}
+
+/* ====================== MOBILE SPECIFIC STYLES ================================ */
 @media screen and (max-width: 728px) {
     /* showcase to get rid of the gaps on the side */
     .showcase {
@@ -175,7 +184,7 @@ footer h4 {
     .showcase-content {
         order: 1;
     }
-    .showcase img {
+    img.float {
         float: none;
         order: 2;
         padding-top: 1.5rem;
@@ -188,7 +197,6 @@ footer h4 {
         margin-top: 1rem;
     }
     .showcase-grid-content img {
-    float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
