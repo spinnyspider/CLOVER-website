@@ -169,19 +169,13 @@ img.float {
     gap: 1rem;
     padding: 0.625rem;
 }
-.product-card {
-    overflow: hidden;
-    border: 3px solid black;
-    padding: 0; 
-    padding-bottom: 0.625rem;
-}
 .products-special {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 0.625rem;
 }
-.product-card-special {
+.product-card {
     overflow: hidden;
     border: 3px solid black;
     padding: 0; 
@@ -199,8 +193,7 @@ img.float {
     padding: 0;
     margin: 0;
 }
-.product-card h1, h2, h3, h4, h5, h6 {padding: 0 0.625rem;}
-.product-card-special h1, h2, h3, h4, h5, h6 {padding: 0 0.625rem;}
+.product-card h1, h2, h3, h4, h5, h6 { padding: 0 0.625rem; }
 .price {
     display: inline-block;
     margin: 0.625rem;
@@ -210,6 +203,8 @@ img.float {
     color: white;
     background-color: green;
 }
+/* hover effect oooooo (only on regular, the custom orders get borked) */
+.products .product-card:hover { transform: scale(1.05); }
 
 /* ====================== MOBILE SPECIFIC STYLES ================================ */
 @media screen and (max-width: 728px) {
