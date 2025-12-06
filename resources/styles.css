@@ -31,7 +31,7 @@ h2, h3, h4, h5, h6 { /* acts as regular headers except h6 is chopped off (sorry 
     margin-left: 0.25rem;
     padding: 0;
     font-family: Poppins, Helvetica, sans-serif;
-    color: greenyellow;
+    color: purple;
 }
 /* sizing changes */
 h2 {font-size: 2em;}
@@ -125,7 +125,7 @@ footer h4 {
     max-width: 100%;
     margin: 1.25rem auto 0.5rem auto;
     background: white;
-    border: 2px greenyellow solid;
+    border: 3px rgb(159, 212, 59) solid;
     border-radius: 0.5rem;
 }
 /*respect the order, image first, content second (float just works like that)*/
@@ -177,7 +177,8 @@ img.float {
 }
 .product-card {
     overflow: hidden;
-    border: 3px solid black;
+    border: 3px rgb(104, 156, 9) solid;
+    border-radius: 0.5rem;
     padding: 0; 
     padding-bottom: 0.625rem;
 }
@@ -202,6 +203,7 @@ img.float {
     font-size: 1rem;
     color: white;
     background-color: green;
+    border-radius: 0.3rem;
 }
 /* hover effect oooooo (only on regular, the custom orders get borked) */
 .products .product-card:hover { transform: scale(1.05); }
