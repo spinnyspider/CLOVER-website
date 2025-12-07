@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Rainbow Yarn Bundle",
+    "description": "Assorted colors for your next project",
+    "price": "$24.99",
+    "image": "https://placehold.co/400x200/red/white?text=sample",
+    "category": "supplies"
+  },
+  {
+    "id": 2,
+    "title": "Amigurumi Pattern: Frog",
+    "description": "PDF pattern with step-by-step photos",
+    "price": "$8.99",
+    "image": "https://placehold.co/400x200/orange/white?text=sample",
+    "category": "patterns"
+  },
+  {
+    "id": 3,
+    "title": "Custom Crochet Service",
+    "description": "Send us your pattern, we make it real!",
+    "price": "Starting at $30",
+    "image": "https://placehold.co/400x200/yellow/white?text=sample",
+    "category": "services"
+  }
+]
