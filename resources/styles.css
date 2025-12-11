@@ -108,14 +108,9 @@ footer {
     margin-top: 2rem;
     background: purple;
 }
-footer .whitespace {
-    width: 10%;
-    border: solid 2px red; 
-}
 footer .contacts {
     color: white;
     font-size: 0.9rem;
-    /* border: solid 2px red; */
 }
 footer h4 {
     font-size: 1.33em;
@@ -224,6 +219,13 @@ img.float {
 }
 /* hover effect oooooo (only on regular, the custom orders get borked) */
 .products .product-card:hover { transform: scale(1.05); }
+.error /*error message for the thing*/ {
+    display: block;
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: red;
+}
 
 /* ====================== MOBILE SPECIFIC STYLES ================================ */
 @media screen and (max-width: 728px) {
