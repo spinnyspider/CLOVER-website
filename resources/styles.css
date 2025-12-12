@@ -194,8 +194,19 @@ img.float {
 .products-special .product-card .footer {
     padding: 1rem 0.5rem;
 }
-.order {
+.order { /*THIS IS AN <a> TAG STYLED LIKE A <button> TAG PLEASE DONT CRUCIFY ME*/
+    box-sizing: border-box;
     margin-left: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: purple;
+    font-family: Montserrat, Helvetica, sans-serif;
+    border: 2px solid greenyellow;
+    border-radius: 0.5rem;
+}
+.order:hover { 
+    transform: scale(1.05); 
+    background-color: rgb(214, 255, 139);
 }
 .product-card img {
     display: block;

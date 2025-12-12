@@ -22,5 +22,29 @@
     "price": "Starting at $30",
     "image": "https://placehold.co/400x200/yellow/white?text=sample",
     "category": "services"
+  },
+    {
+    "id": 4,
+    "title": "macarons",
+    "description": "a very neat box of macarons you can buy very reasonable price yes yes",
+    "price": "4€ per piece",
+    "image:": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tastingtable.com%2Fimg%2Fgallery%2Fthe-tip-to-prevent-macarons-with-a-cracked-top%2Fintro-1690783336.jpg&f=1&nofb=1&ipt=8ad2a1de3137a56044929542c86df5b29efc6cb1b640a6f231a015c4e54210f6", 
+    "category": "food"
+  },
+  {
+    "id": 5,
+    "title": "The real Danny Devito in his flesh",
+    "description": "it is him",
+    "price": "1",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flaughingsquid.com%2Fwp-content%2Fuploads%2F2018%2F12%2FDanny-DeVito-Eats-Hard-Boiled-Egg.png&f=1&nofb=1&ipt=5b8d88e5a8994ac70d5334d61eb6b7937d16c136ef16bdb765c946b5f5470c03",
+    "category": "Danny Devito"
+  },
+  {
+    "id": 6,
+    "title": "GTA VI Release Dates",
+    "description": "sourced from john rockstar games himself so you know its 100% legit",
+    "price": "999999999 €",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviciados.net%2Fwp-content%2Fuploads%2F2023%2F12%2FJason-Lucia-GTA-6-Grand-Theft-Auto-VI-Rockstar-Games-2025.webp&f=1&nofb=1&ipt=73305fe5ee97336fcccd3a67edba49e4af1213a8598e20f1802ca1a5aa132d6f",
+    "category": "gaymes"
   }
 ]
