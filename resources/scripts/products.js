@@ -26,7 +26,7 @@ async function loadProducts() {
     
   } catch (error) {
     console.error("Oops! Couldn't load products:", error);
-    // Optional: Show error message to user
+    // Show error message to user
     const container = document.querySelector('.products');
     container.innerHTML = '<div class="error">Products loading... please refresh! This may also be an issue on our end.</div>';
   }
