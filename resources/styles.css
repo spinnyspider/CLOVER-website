@@ -218,7 +218,7 @@ img.float {
     margin: 0;
 }
 .product-card h1, h2, h3, h4, h5, h6 { padding: 0 0.625rem; margin-bottom: -0.5rem; }
-.price {
+.price { /*can only be one line tall otherwise the whole thing looks squished*/
     display: inline-block;
     margin: 0.625rem;
     padding: 0.625rem;
@@ -310,5 +310,10 @@ img.float {
         padding: 1rem;
         border-bottom: 1px solid white;
         background: none;
+    }
+    /*PRODUCTS PAGE*/
+    /*contacts footer (it should go horizontal)*/
+    footer {
+        flex-direction: column;
     }
 }
