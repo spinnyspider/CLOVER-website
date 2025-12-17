@@ -13,6 +13,7 @@ div {
     padding: 0.625rem;
 }
 body {
+    overflow-x: hidden;
     background: rgb(201, 89, 201);
 }
 
@@ -312,8 +313,8 @@ img.float {
         background: none;
     }
     /*PRODUCTS PAGE*/
+    .products { grid-template-columns: 1fr; }
+    .products-special { grid-template-columns: auto; }
     /*contacts footer (it should go horizontal)*/
-    footer {
-        flex-direction: column;
-    }
+    footer { flex-direction: column; }
 }
