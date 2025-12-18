@@ -5,7 +5,7 @@ This is a website for our company! This project is actively maintained between D
 
 ## Disclaimer
 **Heads up:** This is my first major project! 
-The content inside will also not be translated to English, everything inside is in Slovak (although I am sure Google Translate will not fumble too bad at it)
+- The content inside will also not be translated to English, everything inside is in Slovak (although I am sure Google Translate will not fumble too bad at it)
 - Susceptible to vibe coding (but I try my best)
 - Sometimes I'm just stupid
 - Learning as I go
