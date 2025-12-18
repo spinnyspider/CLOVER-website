@@ -310,6 +310,7 @@ img.float {
         align-items: flex-start;
         padding: 1rem;
         border-bottom: 1px solid white;
+        border-radius: 0;
         background: none;
     }
     /*PRODUCTS PAGE*/
