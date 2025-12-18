@@ -13,6 +13,7 @@ div {
     padding: 0.625rem;
 }
 body {
+    overflow-x: hidden;
     background: rgb(201, 89, 201);
 }
 
@@ -218,7 +219,7 @@ img.float {
     margin: 0;
 }
 .product-card h1, h2, h3, h4, h5, h6 { padding: 0 0.625rem; margin-bottom: -0.5rem; }
-.price {
+.price { /*can only be one line tall otherwise the whole thing looks squished*/
     display: inline-block;
     margin: 0.625rem;
     padding: 0.625rem;
@@ -311,4 +312,9 @@ img.float {
         border-bottom: 1px solid white;
         background: none;
     }
+    /*PRODUCTS PAGE*/
+    .products { grid-template-columns: 1fr; }
+    .products-special { grid-template-columns: auto; }
+    /*contacts footer (it should go horizontal)*/
+    footer { flex-direction: column; }
 }
