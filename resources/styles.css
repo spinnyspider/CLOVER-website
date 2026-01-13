@@ -5,6 +5,7 @@
 */
 /*TODO: fetch design ideas from school website but DO NOT copy and paste it exactly*/
 /*TODO: make a <a> styling and a <ol> styling*/
+/*TODO: make the order button on custom products grid automatically float to the bottom*/
 /*=========== GENERAL ==============*/
 /*general stuff, just shit youd be using on the regular*/
 * {
@@ -218,6 +219,8 @@ img.float {
     height: 50%;
     padding: 0;
     margin: 0;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
 }
 .product-card h1, h2, h3, h4, h5, h6 { padding: 0 0.625rem; margin-bottom: -0.5rem; }
 .price { /*can only be one line tall otherwise the whole thing looks squished*/
