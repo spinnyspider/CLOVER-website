@@ -209,6 +209,12 @@ img.float {
 .products-special .product-card .footer {
     padding: 0 0.5rem 1rem 0.5rem;
 }
+/*TODO: WHY ISNT THIS BOLD*/
+.title {
+    padding-top: 0.5rem;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-weight: bold;
+}
 .order { /*THIS IS AN <a> TAG STYLED LIKE A <button> TAG PLEASE DONT CRUCIFY ME*/
     box-sizing: border-box;
     margin-left: 1rem;
@@ -221,6 +227,7 @@ img.float {
 }
 .order:hover { 
     transform: scale(1.05); 
+    color: purple;
     background-color: rgb(214, 255, 139);
 }
 .product-card img {

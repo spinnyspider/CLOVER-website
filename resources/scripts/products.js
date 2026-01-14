@@ -14,11 +14,11 @@ async function loadProducts() {
       card.className = 'product-card';
       card.innerHTML = `
         <img src="${product.image}" alt="${product.title}">
-        <p><b>${product.title}</b></p>
+        <p class="title">${product.title}</p>
         <p>${product.description}</p>
         <div class="footer">
           <span class="price">${product.price}</span>
-          <a href="mailto:cloverfirma@gmail.com?subject=Order: ${encodeURIComponent(product.title)}&body=Hi! I would like to order ${encodeURIComponent(product.title)} (${encodeURIComponent(product.price)})!" class="order">Požiadať</a>
+          <a href="mailto:cloverfirma@gmail.com?subject=Order: ${encodeURIComponent(product.title)}&body=Hi! I would like to order ${encodeURIComponent(product.title)} (${encodeURIComponent(product.price)})!" class="order">Objednať</a>
         </div>
       `;
       container.appendChild(card);
