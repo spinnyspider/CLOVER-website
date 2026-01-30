@@ -216,11 +216,13 @@ img.float {
     font-weight: bold;
 }
 .order { /*THIS IS AN <a> TAG STYLED LIKE A <button> TAG PLEASE DONT CRUCIFY ME*/
+    position: relative;
     box-sizing: border-box;
     margin-left: 1rem;
     padding: 0.5rem;
     text-decoration: none;
     color: purple;
+    background-color: white;
     font-family: Montserrat, Helvetica, sans-serif;
     border: 2px solid greenyellow;
     border-radius: 0.5rem;
