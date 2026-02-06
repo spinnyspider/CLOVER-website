@@ -1,26 +1,82 @@
 [
   {
     "id": 1,
-    "title": "Rainbow Yarn Bundle",
-    "description": "Assorted colors for your next project",
-    "price": "$24.99",
+    "title": "Leggy Frog",
+    "description": "Frog friend with long legs, can be used as a keychain",
+    "price": "2,00 €",
     "image": "https://placehold.co/400x200/red/white?text=sample",
-    "category": "supplies"
+    "category": "crochet"
   },
   {
     "id": 2,
-    "title": "Amigurumi Pattern: Frog",
-    "description": "PDF pattern with step-by-step photos",
-    "price": "$8.99",
+    "title": "Popping Mushroom",
+    "description": "Mushroom that can be used as a stress toy (the top moves)",
+    "price": "2,50 €",
     "image": "https://placehold.co/400x200/orange/white?text=sample",
-    "category": "patterns"
+    "category": "crochet"
   },
   {
     "id": 3,
-    "title": "Custom Crochet Service",
-    "description": "Send us your pattern, we make it real!",
-    "price": "$30+",
+    "title": "Shrimp",
+    "description": "Palm sized shrimp plushie, made of soft yarn",
+    "price": "2,50 €",
     "image": "https://placehold.co/400x200/yellow/white?text=sample",
-    "category": "services"
+    "category": "crochet"
+  },
+  {
+    "id": 4,
+    "title": "Bee",
+    "description": "A small bee, can be used as a keychain",
+    "price": "2,50 €",
+    "image": "https://placehold.co/400x200/green/white?text=sample",
+    "category": "crochet"
+  },
+  {
+    "id": 5,
+    "title": "Ghost friend",
+    "description": "A ghost plushie, palm sized but made out of plush yarn",
+    "price": "3,50 €",
+    "image": "https://placehold.co/400x200/blue/white?text=sample",
+    "category": "crochet"
+  },
+  {
+    "id": 6,
+    "title": "Chopsticks for computer work",
+    "description": "Chopsticks that can be used while working at the computer",
+    "price": "ask",
+    "image": "https://placehold.co/400x200/blue/white?text=sample",
+    "category": "3Dprints"
+  },
+  {
+    "id": 7,
+    "title": "3D printed bookmarks",
+    "description": "Simple patterned bookmarks in different varieties",
+    "price": "ask",
+    "image": "https://placehold.co/400x200/green/white?text=sample",
+    "category": "3Dprints"
+  },
+  {
+    "id": 8,
+    "title": "Spinning fidget toy",
+    "description": "A fidget toy made of multiple interlocking wheels",
+    "price": "ask",
+    "image": "https://placehold.co/400x200/yellow/white?text=sample",
+    "category": "3Dprints"
+  },
+  {
+    "id": 9,
+    "title": "Satin rose box",
+    "description": "An assortment of satin roses arranged in a box",
+    "price": "ask",
+    "image": "https://placehold.co/400x200/orange/white?text=sample",
+    "category": "other"
+  },
+  {
+    "id": 10,
+    "title": "Homemade treats for pets",
+    "description": "Tasty homemade treats, made of 100% natural ingredients",
+    "price": "ask",
+    "image": "https://placehold.co/400x200/red/white?text=sample",
+    "category": "other"
   }
 ]
