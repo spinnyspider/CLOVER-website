@@ -163,8 +163,8 @@ img.float {
 .showcase-grid-content div {
     margin: 0;
     padding: 0.5rem;
-    border: 1px solid rgb(120, 202, 58);
     border-radius: 0.5rem;
+    background-color: rgb(220, 255, 156);
 }
 .showcase-grid-content img {
     display: block;
@@ -196,8 +196,8 @@ img.float {
     height: 100%;
     padding: 0; 
     padding-bottom: 0.625rem;
-    border: 3px rgb(104, 156, 9) solid;
     border-radius: 0.5rem;
+    background-color: rgb(220, 255, 156);
 }
 .product-card .footer {
     display: flex;
