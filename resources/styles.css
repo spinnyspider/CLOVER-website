@@ -123,6 +123,9 @@ footer .contacts {
     color: white;
     font-size: 0.9rem;
 }
+footer .whitespace {
+    width: 50%;
+}
 footer h4 {
     font-size: 1.33em;
     color: white;
@@ -343,4 +346,5 @@ img.float {
     .products-special { grid-template-columns: auto; }
     /*contacts footer (it should go horizontal)*/
     footer { flex-direction: column; }
+    footer .whitespace { display: none; }
 }
