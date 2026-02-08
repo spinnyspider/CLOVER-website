@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Shrimp",
     "description": "Palm sized shrimp plushie, made of soft yarn",
-    "price": "2,50 €",
+    "price": "3,00 €",
     "image": "https://placehold.co/400x200/yellow/white?text=sample",
     "category": "crochet"
   },
@@ -43,24 +43,24 @@
     "id": 6,
     "title": "Chopsticks for computer work",
     "description": "Chopsticks that can be used while working at the computer",
-    "price": "ask",
-    "image": "https://placehold.co/400x200/blue/white?text=sample",
+    "price": "3,00 €",
+    "image": "/resources/images/gamer chopsticks.jpg",
     "category": "3Dprints"
   },
   {
     "id": 7,
     "title": "3D printed bookmarks",
     "description": "Simple patterned bookmarks in different varieties",
-    "price": "ask",
-    "image": "https://placehold.co/400x200/green/white?text=sample",
+    "price": "2,00 €",
+    "image": "/resources/images/bookmarks.png",
     "category": "3Dprints"
   },
   {
     "id": 8,
     "title": "Spinning fidget toy",
     "description": "A fidget toy made of multiple interlocking wheels",
-    "price": "ask",
-    "image": "https://placehold.co/400x200/yellow/white?text=sample",
+    "price": "2,50 €",
+    "image": "/resources/images/spinny toy.jpg",
     "category": "3Dprints"
   },
   {
