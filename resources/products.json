@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Bee",
     "description": "A small bee, can be used as a keychain",
-    "price": "2,50 €",
+    "price": "3,00 €",
     "image": "/resources/images/products/bee.jpg",
     "category": "crochet"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Ghost friend",
     "description": "A ghost plushie, palm sized but made out of plush yarn",
-    "price": "3,50 €",
+    "price": "4,50 €",
     "image": "/resources/images/products/ghost.jpg",
     "category": "crochet"
   },
@@ -65,17 +65,17 @@
   },
   {
     "id": 9,
-    "title": "Satin rose box",
+    "title": "Ručné vyrábané ruže",
     "description": "An assortment of satin roses arranged in a box",
-    "price": "ask",
+    "price": "7,00 €",
     "image": "https://placehold.co/400x200/orange/white?text=sample",
     "category": "other"
   },
   {
     "id": 10,
-    "title": "Homemade treats for pets",
-    "description": "Tasty homemade treats, made of 100% natural ingredients",
-    "price": "ask",
+    "title": "Zdravé piškóty pre zvieratách",
+    "description": "Made of 100% natural ingredients",
+    "price": "5,00 €/balenie",
     "image": "https://placehold.co/400x200/red/white?text=sample",
     "category": "other"
   }

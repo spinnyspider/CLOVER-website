@@ -4,8 +4,25 @@
 - decoration
 */
 /*TODO: fetch design ideas from school website but DO NOT copy and paste it exactly*/
-/*TODO: make a <a> styling and a <ol> styling*/
-/*TODO: make the order button on custom products grid automatically float to the bottom*/
+
+/*==============ROOT================*/
+/*variables and other silly*/
+:root {
+    --base: #E7EAD9;
+    --mantle1: #c9daa1;
+    --mantle2: #DAA1D4;
+    --crust1: #83A62E;
+    --crust2: #912f9e;
+    --accent1: #6db539;
+    --accent2: #9a39b5;
+    --crust1hover: #9ec542;
+
+    --font-header: Lexend Deca, sans-serif;
+    --font-base: Poppins, sans-serif;
+    --font-important: Montserrat, sans-serif;
+    --font-classy: Garamond, Times New Roman, serif;
+}
+
 /*=========== GENERAL ==============*/
 /*general stuff, just shit youd be using on the regular*/
 * {
@@ -16,7 +33,7 @@ div {
 }
 body {
     overflow-x: hidden;
-    background: rgb(201, 89, 201);
+    background: var(--mantle2);
 }
 
 h1 { /* acts as BIG title */
@@ -25,16 +42,16 @@ h1 { /* acts as BIG title */
     width: auto;
     padding: 0.5rem;
     margin: 0.67em -0.5rem;
-    font-family: Poppins, Helvetica, sans-serif;
-    color: white;
-    background: purple;
+    font-family: var(--font-header);
+    color: var(--base);
+    background: var(--crust2);
 }
 h2, h3, h4, h5, h6 { /* acts as regular headers except h6 is chopped off (sorry h6) */
     margin: 0.625rem;
     margin-left: 0.25rem;
     padding: 0;
-    font-family: Poppins, Helvetica, sans-serif;
-    color: purple;
+    font-family: var(--font-header);
+    color: var(--crust2);
 }
 /* sizing changes */
 h2 {font-size: 2em;}
@@ -47,16 +64,16 @@ p {
     margin-right: 1rem;
     margin-bottom: 0.5rem;
     padding: 0;
-    font-family: Lexend Deca, Helvetica, sans-serif;
+    font-family: var(--font-base);
 }
 /*minor changes so it´ll look nicer*/
-a { color: green; }
-a:hover { color: greenyellow;}
+a { color: var(--accent1); }
+a:hover { color: var(--crust1hover);}
 img {
     filter: blur(0.4px); /*skedaddle skidoodle pixels be gone*/
 }
 ul, ol {
-    font-family: Poppins, Helvetica, sans-serif;
+    font-family: var(--font-base);
 }
 
 /*=============== HEADER ================= */
@@ -84,21 +101,21 @@ nav {
     width: auto;
     padding: 0.75rem;
     margin: -0.5rem;
-    background: rgb(120, 202, 58);
+    background: var(--crust1);
 }
 .nav-links {
     align-self: center;
 }
 .nav-links a {
     padding: 1.25rem;
-    font-family: Montserrat, sans-serif;
-    color: white;
+    font-family: var(--font-important);
+    color: var(--base);
     text-decoration: none;
-    background: rgb(120, 202, 58);
+    background: var(--crust1);
     border-radius: 0.5rem;
 }
 .nav-links a:hover {
-    background: rgb(146, 222, 88);
+    background: var(--crust1hover);
     border-radius: 0.5rem;
 }
 .nav-toggle {
@@ -107,6 +124,18 @@ nav {
     border: none;
     cursor: pointer;
 }
+/*emergency logo styling i think!*/
+nav img {
+    height: 4.5em;
+    padding-left: 1em;
+}
+.logo {
+    padding: 0.2em 0.5em;
+    font-family: Garamond, 'Times New Roman', serif;
+    color: var(--base);
+    font-size: 3em;
+}
+
 
 /*================== FOOTER =====================*/
 /* contacts and shit go here */
@@ -117,10 +146,10 @@ footer {
     padding: 0.75rem;
     margin: -0.5rem;
     margin-top: 2rem;
-    background: purple;
+    background: var(--crust2);
 }
 footer .contacts {
-    color: white;
+    color: var(--base);
     font-size: 0.9rem;
 }
 footer .whitespace {
@@ -128,7 +157,7 @@ footer .whitespace {
 }
 footer h4 {
     font-size: 1.33em;
-    color: white;
+    color: var(--base);
 }
 
 /*================== CONTENT ITSELF (i put it in a .showcase tag and now i know no better way to describe it) =====================*/
@@ -138,8 +167,7 @@ footer h4 {
     width: 85%;
     max-width: 100%;
     margin: 1.25rem auto 0.5rem auto;
-    background: white;
-    border: 3px rgb(159, 212, 59) solid;
+    background: var(--base);
     border-radius: 0.5rem;
 }
 /*respect the order, image first, content second (float just works like that)*/
@@ -164,7 +192,7 @@ img.float {
     margin: 0;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    background-color: rgb(220, 255, 156);
+    background-color: var(--mantle1);
 }
 .showcase-grid-content img {
     display: block;
@@ -197,7 +225,7 @@ img.float {
     padding: 0; 
     padding-bottom: 0.625rem;
     border-radius: 0.5rem;
-    background-color: rgb(220, 255, 156);
+    background-color: var(--mantle1);
 }
 .product-card .footer {
     display: flex;
@@ -215,7 +243,7 @@ img.float {
 /*TODO: WHY ISNT THIS BOLD*/
 .title {
     padding-top: 0.5rem;
-    font-family: Poppins, Helvetica, sans-serif;
+    font-family: var(--font-header);
     font-weight: bold;
 }
 .order { /*THIS IS AN <a> TAG STYLED LIKE A <button> TAG PLEASE DONT CRUCIFY ME*/
@@ -224,16 +252,16 @@ img.float {
     margin-left: 1rem;
     padding: 0.5rem;
     text-decoration: none;
-    color: purple;
-    background-color: white;
-    font-family: Montserrat, Helvetica, sans-serif;
-    border: 2px solid greenyellow;
+    color: var(--accent2);
+    background-color: var(--base);
+    font-family: var(--font-important);
+    border: 2px solid var(--accent1);
     border-radius: 0.5rem;
 }
 .order:hover { 
     transform: scale(1.05); 
-    color: purple;
-    background-color: rgb(214, 255, 139);
+    color: var(--accent2);
+    background-color: var(--base);
 }
 .product-card img {
     display: block;
@@ -251,10 +279,10 @@ img.float {
     display: inline-block;
     margin: 0.625rem;
     padding: 0.625rem;
-    font-family: Montserrat, Helvetica, sans-serif;
+    font-family: var(--font-important);
     font-size: 1rem;
-    color: white;
-    background-color: green;
+    color: var(--base);
+    background-color: var(--crust2);
     border-radius: 0.3rem;
 }
 /* hover effect oooooo (only on regular, the custom orders get borked) */
@@ -262,11 +290,11 @@ img.float {
 .error /*error message for the thing*/ {
     display: block;
     grid-column: 1 / span 5;
-    font-family: Lexend Deca, Helvetica, sans-serif;
-    color: white;
-    border: 2px solid rgb(164, 0, 0);
+    font-family: var(--font-base);
+    color: var(--base);
+    border: 2px solid rgb(175, 50, 50);
     border-radius: 0.5rem;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(226, 78, 78);
 }
 
 /* ====================== MOBILE SPECIFIC STYLES ================================ */
@@ -294,10 +322,10 @@ img.float {
         margin-top: 1rem;
     }
     .showcase-grid-content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
     /*navbar fix*/
     nav {
@@ -316,12 +344,12 @@ img.float {
         font-size: 2rem;
         margin-left: auto;
         padding: 0 0.5rem 0.25rem 0.5rem;
-        background: rgb(120, 202, 58);
-        color: white;
+        background: var(--crust1);
+        color: var(--base);
         border-radius: 0.5rem;
     }
     .nav-toggle:active {
-        background:rgb(146, 222, 88);
+        background: var(--crust1hover);
         border-radius: 0.5rem;
     }
     /*button functionality i believe???*/
@@ -332,12 +360,12 @@ img.float {
         top: 90%; 
         right: 0;
         width: 50%;
-        background: rgb(120, 202, 58);
+        background: var(--crust1);
     }
     .nav-links.active a {
         align-items: flex-start;
         padding: 1rem;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid var(--base);
         border-radius: 0;
         background: none;
     }
