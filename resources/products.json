@@ -1,64 +1,64 @@
 [
   {
     "id": 1,
-    "title": "Leggy Frog",
-    "description": "Frog friend with long legs, can be used as a keychain",
+    "title": "Žaba dlhonohá",
+    "description": "Frog priateľ s dlhými nohami, môže byť použitý ako kľúčenka",
     "price": "2,00 €",
     "image": "/resources/images/products/forg.jpg",
     "category": "crochet"
   },
   {
     "id": 2,
-    "title": "Popping Mushroom",
-    "description": "Mushroom that can be used as a stress toy (the cap can move)",
+    "title": "Poping huba",
+    "description": "Huba, ktorá môže byť použitá ako stresová hračka (čiapka sa môže pohybovať)",
     "price": "2,50 €",
     "image": "/resources/images/products/mushroom.jpg",
     "category": "crochet"
   },
   {
     "id": 3,
-    "title": "Shrimp",
-    "description": "Palm sized shrimp plushie, made of soft yarn",
+    "title": "Kreveta",
+    "description": "Plyšová kreveta veľkosti dlane, vyrobené z mäkkej priadze",
     "price": "3,00 €",
     "image": "/resources/images/products/shrimp.jpg",
     "category": "crochet"
   },
   {
     "id": 4,
-    "title": "Bee",
-    "description": "A small bee, can be used as a keychain",
+    "title": "Včela",
+    "description": "Malá včela, môže byť použitá ako kľúčenka",
     "price": "3,00 €",
     "image": "/resources/images/products/bee.jpg",
     "category": "crochet"
   },
   {
     "id": 5,
-    "title": "Ghost friend",
-    "description": "A ghost plushie, palm sized but made out of plush yarn",
+    "title": "Priateľský duch",
+    "description": "Duchovný plyšák veľkosti dlane, ale vyrobený z plyšovej priadze",
     "price": "4,50 €",
     "image": "/resources/images/products/ghost.jpg",
     "category": "crochet"
   },
   {
     "id": 6,
-    "title": "Chopsticks for computer work",
-    "description": "Chopsticks that can be used while working at the computer",
+    "title": "Paličky na prácu s počítačom",
+    "description": "Paličky, ktoré možno použiť pri práci pri počítači",
     "price": "3,00 €",
     "image": "/resources/images/products/gamer chopsticks.jpg",
     "category": "3Dprints"
   },
   {
     "id": 7,
-    "title": "3D printed bookmarks",
-    "description": "Simple patterned bookmarks in different varieties",
+    "title": "3D tlačená záložky",
+    "description": "Jednoduché vzorované záložky v rôznych variantoch",
     "price": "2,00 €",
     "image": "/resources/images/products/bookmarks.png",
     "category": "3Dprints"
   },
   {
     "id": 8,
-    "title": "Spinning fidget toy",
-    "description": "A fidget toy made of multiple interlocking wheels",
+    "title": "Točiacá hračka",
+    "description": "Točiacá hračka vyrobená z viacerých do seba zapadajúcich kolies",
     "price": "2,50 €",
     "image": "/resources/images/products/spinny toy.jpg",
     "category": "3Dprints"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "title": "Ručné vyrábané ruže",
-    "description": "An assortment of satin roses arranged in a box",
+    "description": "Sortiment saténových ruží, môže byť usporiadaný v krabici",
     "price": "7,00 €",
     "image": "https://placehold.co/400x200/orange/white?text=sample",
     "category": "other"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "title": "Zdravé piškóty pre zvieratách",
-    "description": "Made of 100% natural ingredients",
+    "description": "Vyrobené zo 100% prírodných surovín pre domáce zvieratá",
     "price": "5,00 €/balenie",
     "image": "https://placehold.co/400x200/red/white?text=sample",
     "category": "other"

@@ -18,7 +18,7 @@ async function loadProducts() {
         <p>${product.description}</p>
         <div class="footer">
           <span class="price">${product.price}</span>
-          <a href="mailto:cloverfirma@gmail.com?subject=Order: ${encodeURIComponent(product.title)}&body=Hi! I would like to order ${encodeURIComponent(product.title)} (${encodeURIComponent(product.price)})!" class="order">Objednať</a>
+          <a href="mailto:cloverfirma@gmail.com?subject=Objednávka: ${encodeURIComponent(product.title)}&body=Ahoj! Chcel/a by som objednať ${encodeURIComponent(product.title)} (${encodeURIComponent(product.price)})!" class="order">Objednať</a>
         </div>
       `;
       container.appendChild(card);
