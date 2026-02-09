@@ -4,7 +4,7 @@
     "title": "Leggy Frog",
     "description": "Frog friend with long legs, can be used as a keychain",
     "price": "2,00 €",
-    "image": "https://placehold.co/400x200/red/white?text=sample",
+    "image": "/resources/images/products/forg.jpg",
     "category": "crochet"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Popping Mushroom",
     "description": "Mushroom that can be used as a stress toy (the cap can move)",
     "price": "2,50 €",
-    "image": "https://placehold.co/400x200/orange/white?text=sample",
+    "image": "/resources/images/products/mushroom.jpg",
     "category": "crochet"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Shrimp",
     "description": "Palm sized shrimp plushie, made of soft yarn",
     "price": "3,00 €",
-    "image": "https://placehold.co/400x200/yellow/white?text=sample",
+    "image": "/resources/images/products/shrimp.jpg",
     "category": "crochet"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bee",
     "description": "A small bee, can be used as a keychain",
     "price": "2,50 €",
-    "image": "https://placehold.co/400x200/green/white?text=sample",
+    "image": "/resources/images/products/bee.jpg",
     "category": "crochet"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Ghost friend",
     "description": "A ghost plushie, palm sized but made out of plush yarn",
     "price": "3,50 €",
-    "image": "https://placehold.co/400x200/blue/white?text=sample",
+    "image": "/resources/images/products/ghost.jpg",
     "category": "crochet"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Chopsticks for computer work",
     "description": "Chopsticks that can be used while working at the computer",
     "price": "3,00 €",
-    "image": "/resources/images/gamer chopsticks.jpg",
+    "image": "/resources/images/products/gamer chopsticks.jpg",
     "category": "3Dprints"
   },
   {
@@ -52,7 +52,7 @@
     "title": "3D printed bookmarks",
     "description": "Simple patterned bookmarks in different varieties",
     "price": "2,00 €",
-    "image": "/resources/images/bookmarks.png",
+    "image": "/resources/images/products/bookmarks.png",
     "category": "3Dprints"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Spinning fidget toy",
     "description": "A fidget toy made of multiple interlocking wheels",
     "price": "2,50 €",
-    "image": "/resources/images/spinny toy.jpg",
+    "image": "/resources/images/products/spinny toy.jpg",
     "category": "3Dprints"
   },
   {
