@@ -4,7 +4,7 @@
     "title": "Žaba dlhonohá",
     "description": "Frog priateľ s dlhými nohami, môže byť použitý ako kľúčenka",
     "price": "2,00 €",
-    "image": "/resources/images/products/forg.jpg",
+    "image": "../resources/images/products/forg.jpg",
     "category": "crochet"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Poping huba",
     "description": "Huba, ktorá môže byť použitá ako stresová hračka (čiapka sa môže pohybovať)",
     "price": "2,50 €",
-    "image": "/resources/images/products/mushroom.jpg",
+    "image": "../resources/images/products/mushroom.jpg",
     "category": "crochet"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Kreveta",
     "description": "Plyšová kreveta veľkosti dlane, vyrobené z mäkkej priadze",
     "price": "3,00 €",
-    "image": "/resources/images/products/shrimp.jpg",
+    "image": "../resources/images/products/shrimp.jpg",
     "category": "crochet"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Včela",
     "description": "Malá včela, môže byť použitá ako kľúčenka",
     "price": "3,00 €",
-    "image": "/resources/images/products/bee.jpg",
+    "image": "../resources/images/products/bee.jpg",
     "category": "crochet"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Priateľský duch",
     "description": "Duchovný plyšák veľkosti dlane, ale vyrobený z plyšovej priadze",
     "price": "4,50 €",
-    "image": "/resources/images/products/ghost.jpg",
+    "image": "../resources/images/products/ghost.jpg",
     "category": "crochet"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Paličky na prácu s počítačom",
     "description": "Paličky, ktoré možno použiť pri práci pri počítači",
     "price": "3,00 €",
-    "image": "/resources/images/products/gamer chopsticks.jpg",
+    "image": "../resources/images/products/gamer chopsticks.jpg",
     "category": "3Dprints"
   },
   {
@@ -52,7 +52,7 @@
     "title": "3D tlačené záložky",
     "description": "Jednoduché vzorované záložky v rôznych variantoch",
     "price": "2,00 €",
-    "image": "/resources/images/products/bookmarks.png",
+    "image": "../resources/images/products/bookmarks.png",
     "category": "3Dprints"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Točiacá hračka",
     "description": "Točiacá hračka vyrobená z viacerých do seba zapadajúcich kolies",
     "price": "2,50 €",
-    "image": "/resources/images/products/spinny toy.jpg",
+    "image": "../resources/images/products/spinny toy.jpg",
     "category": "3Dprints"
   },
   {
