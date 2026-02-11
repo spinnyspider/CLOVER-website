@@ -68,7 +68,7 @@
     "title": "Ručné vyrábané ruže",
     "description": "Sortiment saténových ruží, môže byť usporiadaný v krabici",
     "price": "7,00 €",
-    "image": "https://placehold.co/400x200/orange/white?text=sample",
+    "image": "../resources/images/products/rosebox.jpg",
     "category": "other"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Zdravé piškóty pre zvieratách",
     "description": "Vyrobené zo 100% prírodných surovín pre domáce zvieratá",
     "price": "5,00 €/balenie",
-    "image": "https://placehold.co/400x200/red/white?text=sample",
+    "image": "../resources/images/products/dog-treats-illustration.webp",
     "category": "other"
   }
 ]
