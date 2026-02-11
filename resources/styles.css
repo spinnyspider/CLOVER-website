@@ -232,8 +232,9 @@ img.float {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    bottom: auto;
     padding: 0 0.5rem;
-    margin: -0.5rem 0rem -0.5rem -0.5rem;
+    margin: auto 0rem -0.5rem -0.5rem;
 }
 .product-card p {
     margin: 0rem 1rem 1rem 1rem; 
